@@ -22,11 +22,11 @@ jobs:
         uses: estevan-access/detect-secrets-action@v0.2
         env:
           # DS_REQUIRE_BASELINE: 0
-          # DS_ADDL_ARGS:
+          DS_ADDL_ARGS: --json
           DS_BASELINE_FILE: .secrets.baseline
           DS_AUDIT_BASELINE: 0
-      - name: 'Upload Artifact'
-        uses: actions/upload-artifact@v3
-        with:
-          name: .secrets.baseline
-          path: .secrets.baseline
+#      - name: 'Upload Artifact'
+#        uses: actions/upload-artifact@v3
+#        with:
+#          name: .secrets.baseline
+#          path: .secrets.baseline
