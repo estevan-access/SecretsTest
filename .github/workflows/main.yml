@@ -17,6 +17,6 @@ jobs:
     runs-on: 'ubuntu-latest'
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       - name: Run Yelp's detect-secrets
-        uses: estevan-access/detect-secrets-action@v1
+        uses: estevan-access/detect-secrets-action@v1.1
