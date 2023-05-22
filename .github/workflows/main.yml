@@ -19,4 +19,4 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Run Yelp's detect-secrets
-        uses: estevan-access/detect-secrets-action@1.0
+        uses: estevan-access/detect-secrets-action@v1
