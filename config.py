@@ -1,5 +1,5 @@
 # Configuration files are a really frequent source of secrets
-# 2023-05-22 - 11:55PM UTC+10
+# 2023-05-22 - 09:27PM UTC+10
 '''Common Key Types with obvious names'''
 
 # AWS
